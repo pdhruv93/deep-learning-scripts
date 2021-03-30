@@ -7,7 +7,9 @@
     <orderEntry type="module" module-name="grad-cam" />
     <orderEntry type="module" module-name="keract" />
     <orderEntry type="module" module-name="quiver" />
-    <orderEntry type="module" module-name="bg-subtract" />
     <orderEntry type="module" module-name="makeImgGenDir" />
+    <orderEntry type="module" module-name="hsv" />
+    <orderEntry type="module" module-name="edge-detection" />
+    <orderEntry type="module" module-name="pi-car" />
   </component>
 </module>

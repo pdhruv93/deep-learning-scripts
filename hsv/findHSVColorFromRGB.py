@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 #get rgb values from here: https://imagecolorpicker.com/en
-rgbColor = np.uint8([[[169,169,169]]])
+rgbColor = np.uint8([[[92,113,165]]])
 hsvColor = cv2.cvtColor(rgbColor, cv2.COLOR_BGR2HSV)
 
 upper = np.array([hsvColor[0][0][0] + 10, hsvColor[0][0][1] + 10, hsvColor[0][0][2] + 40])

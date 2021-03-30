@@ -21,17 +21,16 @@ args = vars(ap.parse_args())
 
 # load the original image from disk and apply same transformations that you applied during training
 orig = cv2.imread(args["image"])
-#image = load_img(args["image"], target_size=(96, 96))     #change
+
 image = cv2.imread(args["image"])
-image = cv2.resize(image, (96, 96))
-#image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-image = cv2.inRange(hsv, np.array([-50, 50, 50]), np.array([100, 250, 350]))
-image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+image = cv2.resize(image, (128, 128))
+image = cv2.GaussianBlur(image, (7,7), 3)
+image = cv2.adaptiveThreshold(image, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)
+ret, image = cv2.threshold(image, 25, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
 image = img_to_array(image)
 image = image * 1./255
 image = np.expand_dims(image, axis=0)
-#image = imagenet_utils.preprocess_input(image)
 
 
 

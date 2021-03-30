@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../bg-subtract/.idea/bg-subtract.iml" filepath="$PROJECT_DIR$/../bg-subtract/.idea/bg-subtract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../edge-detection/.idea/edge-detection.iml" filepath="$PROJECT_DIR$/../edge-detection/.idea/edge-detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fingers-count-scratch.iml" filepath="$PROJECT_DIR$/.idea/fingers-count-scratch.iml" />
       <module fileurl="file://$PROJECT_DIR$/../grad-cam/.idea/grad-cam.iml" filepath="$PROJECT_DIR$/../grad-cam/.idea/grad-cam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hsv/.idea/hsv.iml" filepath="$PROJECT_DIR$/../hsv/.idea/hsv.iml" />
       <module fileurl="file://$PROJECT_DIR$/../keract/.idea/keract.iml" filepath="$PROJECT_DIR$/../keract/.idea/keract.iml" />
       <module fileurl="file://$PROJECT_DIR$/../makeImgGenDir/.idea/makeImgGenDir.iml" filepath="$PROJECT_DIR$/../makeImgGenDir/.idea/makeImgGenDir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pi-car/.idea/pi-car.iml" filepath="$PROJECT_DIR$/../pi-car/.idea/pi-car.iml" />
       <module fileurl="file://$PROJECT_DIR$/../quiver/.idea/quiver.iml" filepath="$PROJECT_DIR$/../quiver/.idea/quiver.iml" />
     </modules>
   </component>
